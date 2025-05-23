@@ -15,7 +15,10 @@
 
 
 ## 📝 Descrição
-<p align="justify"></p>
+<p align="justify">
+  Neste trabalho, resolvemos o problema de encontrar senhas de tamanho variável utilizando um algoritmo genético. Ou seja, a função que gera cada indivíduo da população não conhece o tamanho exato da senha, apenas que este varia entre 1 e 30 caracteres — compostos por letras minúsculas, letras maiúsculas e dígitos numéricos. Nesse contexto, para que o algoritmo encontre a senha correta, é necessário que ele consiga inferir que indivíduos com tamanhos diferentes estão mais distantes da solução ideal. Para isso, a função objetivo aplica uma penalização proporcional à diferença entre o tamanho dos indivíduos e o da senha correta.
+</p>
+
 
 ## 📔 Notebooks e arquivos do projeto
 
