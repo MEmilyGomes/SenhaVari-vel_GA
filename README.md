@@ -21,7 +21,8 @@ Os algoritmos genétivos são baseados em conceitos biológicos, como seleção 
 
 
 ## 📔 Notebooks e arquivos do projeto
-
+* `ATP - 4.9 A senha de tamanho variável.ipynb`: Notebook principal que implementa um algoritmo genético para resolver o problema da senha variável.
+* `funcoes_sv.py`: Script das funções do notebook. 
 
 ## 🎢 Modificando a Função Objetivo
 <p align="justify">
@@ -96,6 +97,7 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 
 ## 😁 Conclusão
 
+
 ## 🖇️ Informações técnicas
 * Linguagem de programação: `Python 3.9`
 * Software:  `Jupyter Notebook`
@@ -118,7 +120,7 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 * Emily Gomes: Ajustou a função objetivo para resolver um problema de minimização e implementou uma nova função de mutação, a mutacao_insercao_delecao.
 
 #### Para o Repositório GitHub:
-* Júlia Guedes: 
-* Emily Gomes: README
+* Júlia Guedes: README.
+* Emily Gomes: README.
 
 **Orientação:** Prof. Dr. Daniel R. Cassar.
