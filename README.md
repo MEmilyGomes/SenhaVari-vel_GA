@@ -16,7 +16,7 @@
 
 ## 📝 Descrição
 <p align="justify">
-  Neste trabalho, resolvemos o problema de encontrar senhas de tamanho variável utilizando um algoritmo genético. Ou seja, a função que gera cada indivíduo da população não conhece o tamanho exato da senha, apenas que este varia entre 1 e 30 caracteres — compostos por letras minúsculas, letras maiúsculas e dígitos numéricos. Nesse contexto, para que o algoritmo encontre a senha correta, é necessário que ele consiga inferir que indivíduos com tamanhos diferentes estão mais distantes da solução ideal. Para isso, a função objetivo aplica uma penalização proporcional à diferença entre o tamanho dos indivíduos e o da senha correta.
+Os algoritmos genétivos são baseados em conceitos biológicos, como seleção natural e genético, com o objetico de direcionar a busca para regiões de melhor performance em um espaço de soluções e resolver problemas de otimização <a href="#ref1"><sup>1</sup></a>. Neste trabalho, resolvemos o problema de encontrar senhas de tamanho variável utilizando um algoritmo genético. Ou seja, a função que gera cada indivíduo da população não conhece o tamanho exato da senha, apenas que este varia entre 1 e 30 caracteres — compostos por letras minúsculas, letras maiúsculas e dígitos numéricos. Nesse contexto, para que o algoritmo encontre a senha correta, é necessário que ele consiga inferir que indivíduos com tamanhos diferentes estão mais distantes da solução ideal. Para isso, a função objetivo aplica uma penalização proporcional à diferença entre o tamanho dos indivíduos e o da senha correta.
 </p>
 
 
@@ -57,6 +57,7 @@ def funcao_objetivo_senha_sv(candidato, senha_verdadeira, letras_possiveis):
 
     return distancia
 ````
+
 ## 🐇 Criando uma nova função de mutação
 <p align="justify">
 Para tentar fazer o código convergir mais rapidamente, implementamos mais um tipo de função de mutação: a <code>mutacao_insercao_delecao</code>. Como ocorre com outras mutações, ela só será executada se o valor sorteado por <code>random.random</code> for menor que a chance de mutação. Caso isso ocorra, a função irá sortear entre as opções "inserção" e "deleção". No caso da inserção, um ou mais genes são adicionados de modo que o indivíduo atinja, no máximo, 30 genes. Já no caso da deleção, dois valores são sorteados, e os genes são removidos antes do menor valor e após o maior.
@@ -100,7 +101,12 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 * Software:  `Jupyter Notebook`
 * **Bibliotecas e Módulos:** `torch`, `torchvision`, `torchvision.datasets`, `torchvision.transforms`, `torch.utils.data.random_split`, `torch.utils.data.DataLoader`, `torch.nn`, `torch.nn.functional`, `torch.optim`, `matplotlib.pyplot`, `os`, `random`
 
-## 👩‍🦳 Referências
+<!-- Referencias lindinhas -->
+<h2 id="ref1">👩‍🦳 Referências</h2>
+<p>
+1. <a href="https://www.geeksforgeeks.org/genetic-algorithms/" target="_blank"> GeeksforGeeks - Genetic Algorithms
+  </a>
+</p>
 
 
 ## 🧠 Contribuições dos Colaboradores
