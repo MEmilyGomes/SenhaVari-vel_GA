@@ -94,14 +94,15 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 ````
 
 ## 🔢 Resultados obtidos
-<p align="center">
-  <img src="Imagens/histograma.png" width="600" alt="Gráfico de exemplo">
-</p>
 <p align="justify">
 Ao final dos experimentos, observou-se que 151 testes não convergiram para a solução correta. Esse resultado está relacionado à natureza não determinística dos algoritmos genéticos: como se baseiam em operações aleatórias e estocásticas, eles nem sempre conseguem encontrar a solução ideal para um dado problema. No presente caso, o critério de parada adotado foi estritamente o acerto da senha. Portanto, é possível que alguns testes tenham ficado presos em mínimos locais, onde as soluções candidatas se aproximaram da senha correta, mas não o suficiente para atingi-la exatamente — ou que simplesmente exigiriam mais gerações do que o limite estabelecido para convergência.
 </p>
 <p align="justify">
 A partir do histograma, é possível concluir que a maior parte dos testes convergiram antes das 100 gerações, estando a distribuição centrada próxima a 90. Isso pode sinalizar que o algoritmo está bem otimizado e é capaz de encontrar, na majoritária parcela dos testes, a solução para o problema da senha em poucas gerações (considerando a complexidade do espaço de busca).
+</p>
+
+<p align="center">
+  <img src="Imagens/histograma.png" width="600" alt="Gráfico de exemplo">
 </p>
 
 ## 😁 Conclusão
