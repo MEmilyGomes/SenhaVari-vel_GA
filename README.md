@@ -94,6 +94,10 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 ````
 
 ## 🔢 Resultados obtidos
+<p align="center">
+  <img src="Imagens/histograma.png" width="600" alt="Gráfico de exemplo">
+</p>
+
 
 ## 😁 Conclusão
 
