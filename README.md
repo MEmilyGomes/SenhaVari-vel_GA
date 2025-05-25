@@ -22,7 +22,8 @@ Os algoritmos genétivos são baseados em conceitos biológicos, como seleção 
 
 ## 📔 Notebooks e arquivos do projeto
 * `ATP - 4.9 A senha de tamanho variável.ipynb`: Notebook principal que implementa um algoritmo genético para resolver o problema da senha variável.
-* `funcoes_sv.py`: Script das funções do notebook. 
+* `funcoes_sv.py`: Script das funções do notebook.
+* `imagens``: Contém as duas imagens utilizadas para a composição do repositório e do notebook principal, sendo essas "histograma.png" e "logo_ilum-CNPEM.png".
 
 ## 🎢 Modificando a Função Objetivo
 <p align="justify">
