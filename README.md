@@ -86,7 +86,7 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
                 if len(individuo) > 2:
                     nos = random.sample(range(1, len(individuo)), k=2)
                     nos = sorted(nos)
-                    populacao[i] = individuo[nos[0]:nos[1]
+                    populacao[i] = individuo[nos[0]:nos[1]]
 ````
 
 ## 🔢 Resultados obtidos
