@@ -97,10 +97,25 @@ def mutacao_insercao_delecao(populacao, chance_de_mutacao, valores_possiveis):
 <p align="center">
   <img src="Imagens/histograma.png" width="600" alt="Gráfico de exemplo">
 </p>
-
+<p align="justify">
+Ao final dos experimentos, observou-se que 151 testes não convergiram para a solução correta. Esse resultado está relacionado à natureza não determinística dos algoritmos genéticos: como se baseiam em operações aleatórias e estocásticas, eles nem sempre conseguem encontrar a solução ideal para um dado problema. No presente caso, o critério de parada adotado foi estritamente o acerto da senha. Portanto, é possível que alguns testes tenham ficado presos em mínimos locais, onde as soluções candidatas se aproximaram da senha correta, mas não o suficiente para atingi-la exatamente — ou que simplesmente exigiriam mais gerações do que o limite estabelecido para convergência.
+</p>
+<p align="justify">
+A partir do histograma, é possível concluir que a maior parte dos testes convergiram antes das 100 gerações, estando a distribuição centrada próxima a 90. Isso pode sinalizar que o algoritmo está bem otimizado e é capaz de encontrar, na majoritária parcela dos testes, a solução para o problema da senha em poucas gerações (considerando a complexidade do espaço de busca).
+</p>
 
 ## 😁 Conclusão
+<p align= "justify">
+Em resumo, as modificações realizadas nas funções de criação da população e de avaliação do fitness mostraram-se eficazes para a resolução do problema da senha variável. Dos 1000 testes realizados, apenas 15% não convergiram dentro do limite de gerações estabelecido, indicando um bom desempenho do algoritmo mesmo diante da maior complexidade imposta pela variação do comprimento das senhas.
+</p>
 
+<p align= "justify">
+Como principal contribuição criativa, destaca-se a implementação da função de mutação por deleção ou inserção, inspirada em processos biológicos homônimos. Essa função permite a remoção ou introdução de genes, proporcionando ao algoritmo maior flexibilidade para explorar soluções com diferentes comprimentos, o que é essencial para esse tipo de problema.
+</p>
+
+<p align= "justify">
+Por fim, a análise das distribuições dos resultados evidenciou a natureza probabilística dos algoritmos genéticos. Embora geralmente consigam encontrar soluções próximas da ótima, esses algoritmos não garantem a convergência para a melhor solução em todos os casos, especialmente quando sujeitos a espaços de busca grandes ou com múltiplos ótimos locais. Ainda assim, os bons resultados obtidos comprovam a eficácia desses algoritmos para a resolução desse tipo de problema.
+</p>
 
 ## 🖇️ Informações técnicas
 * Linguagem de programação: `Python 3.9`
