@@ -9,11 +9,6 @@
 <p align="center"><strong>Orientador:</strong> Prof. Dr. Daniel R. Cassar</p>
 
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
-
 ## 📝 Descrição
 <p align="justify">
 Os algoritmos genétivos são baseados em conceitos biológicos, como seleção natural e genético, com o objetico de direcionar a busca para regiões de melhor performance em um espaço de soluções e resolver problemas de otimização <a href="#ref1"><sup>1</sup></a>. Neste trabalho, resolvemos o problema de encontrar senhas de tamanho variável utilizando um algoritmo genético. Ou seja, a função que gera cada indivíduo da população não conhece o tamanho exato da senha, apenas que este varia entre 1 e 30 caracteres — compostos por letras minúsculas, letras maiúsculas e dígitos numéricos. Nesse contexto, para que o algoritmo encontre a senha correta, é necessário que ele consiga inferir que indivíduos com tamanhos diferentes estão mais distantes da solução ideal. Para isso, a função objetivo aplica uma penalização proporcional à diferença entre o tamanho dos indivíduos e o da senha correta.
@@ -23,7 +18,7 @@ Os algoritmos genétivos são baseados em conceitos biológicos, como seleção 
 ## 📔 Notebooks e arquivos do projeto
 * `ATP - 4.9 A senha de tamanho variável.ipynb`: Notebook principal que implementa um algoritmo genético para resolver o problema da senha variável.
 * `funcoes_sv.py`: Script das funções do notebook.
-* `imagens``: Contém as duas imagens utilizadas para a composição do repositório e do notebook principal, sendo essas "histograma.png" e "logo_ilum-CNPEM.png".
+* `Imagens`: Contém as duas imagens utilizadas para a composição do repositório e do notebook principal, sendo essas "histograma.png" e "logo_ilum-CNPEM.png".
 
 ## 🎢 Modificando a Função Objetivo
 <p align="justify">
